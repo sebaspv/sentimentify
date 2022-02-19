@@ -1,0 +1,8 @@
+{
+  "name": "sentimentify",
+  "version": "1.0.0",
+  "description": "Music on demand based on your mood",
+  "repository": "https://github.com/pumasteam/sentimentify.git",
+  "author": "SciDroid <scidroid@scidroid.me>",
+  "license": "MIT"
+}

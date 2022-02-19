@@ -1,0 +1,91 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.sun {
+  display: inline-block;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: orange;
+  box-shadow: 0 0 10px orange, 0 0 60px orange, 0 0 200px yellow,
+    inset 0 0 80px yellow;
+  z-index: 12;
+  align: center;
+  z-index: -99;
+}
+
+.cloud {
+  display: inline-block;
+  background: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  -webkit-filter: blur(6px);
+  z-index: 11;
+  left: -50px;
+  animation: 15000ms cloudAnimation linear infinite;
+  opacity: 0.76;
+}
+
+.cloud:before {
+  content: "";
+  display: inline-block;
+  background: white;
+  width: 100px;
+  height: 100px;
+  -webkit-filter: blur(3px);
+  position: relative;
+  border-radius: 50%;
+  top: -30px;
+  left: 60px;
+}
+
+.cloud:after {
+  content: "";
+  display: inline-block;
+  background: white;
+  width: 200px;
+  height: 100px;
+  -webkit-filter: blur(3px);
+  position: relative;
+  border-radius: 50%;
+  top: -80px;
+  left: 70px;
+}
+
+.cloud:first-child {
+  zoom: 1.5;
+}
+
+@keyframes cloudAnimation {
+  0% {
+    transform: translate(-100px, 0);
+  }
+  100% {
+    transform: translate(50px, 0);
+  }
+}
+
+.hero {
+  padding: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 25px #000, 0 0 30px #000, 0 0 45px #000;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: bold;
+}
