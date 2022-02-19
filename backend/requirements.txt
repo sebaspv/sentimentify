@@ -3,3 +3,5 @@ fastapi
 pydantic
 python-dotenv
 uvicorn
+fer
+tensorflow
