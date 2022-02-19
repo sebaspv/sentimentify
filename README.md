@@ -28,13 +28,22 @@ Sentimentify is a music on demand service that uses your mood to recommend music
 Install the dependencies:
 
 ```sh
-$ cd backend && npm install
+$ cd backend && pip3 install -r requirements.txt
+```
+
+Add environment variables:
+
+```sh
+cd backend
+touch .env
+echo "DETA_PROJECT_KEY=**YOUR_KEY**" >> ".env"
+echo "DETA_PROJECT_KEY=**YOUR_ID**" >> ".env"
 ```
 
 Run in dev mode:
 
 ```sh
-$ cd backend && yarn dev
+$ cd backend && python3 main.py
 ```
 
 ### Frontend
@@ -61,6 +70,7 @@ $ cd frontend && yarn dev
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev)
 - [FastApi](https://fastapi.tiangolo.com/)
+- [Deta](https://deta.sh)
 
 <p align="right"><a href="#top">Back to top 🔼</a></p>
 
