@@ -7,6 +7,7 @@
   font-size: 3rem;
   font-weight: bold;
   color: yellow;
+  text-shadow: -1px 1px 17px rgba(255, 255, 0, 1);
 }
 
 .link {
