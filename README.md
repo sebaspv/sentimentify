@@ -116,5 +116,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Juan Almanza @scidroid**
 [@scidroid](https://scidroid.me/) - scidroid@scidroid.me
+**Sebastian Ponce @sebaspv**
+[@sebaspv](https://sebastianponce.co/) - sebastian@sebastianponce.co
 
 <p align="right"><a href="#top">Back to top 🔼</a></p>
